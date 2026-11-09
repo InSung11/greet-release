@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Add `greet(name, punctuation="!")`: fixed `!` ending → configurable punctuation, preserving `!` by default.
+
+### Fixed
+- Fix `greet(name)` for empty or whitespace-only names: blank greeting → `Hello, world!` with default punctuation.
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
